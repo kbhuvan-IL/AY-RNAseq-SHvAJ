@@ -20,7 +20,7 @@ module load Subread/2.0.4-IGB-gcc-8.2.0
 # "basenamesFULL.txt" is correct if you'ved changed directories above.
 
 
-# STEP 2: Finish the featureCounts command. See PowerPoint for hints.
+# STEP 2: Finish the featureCounts command. 
 
 featureCounts -p --countReadPairs -t exon -g gene_id -s 2 \
 -T $SLURM_NTASKS -F GTF \
